@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fix & Flip Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="calculator-container">
+    <header>
+      <h1>Fix & Flip Calculator</h1>
+    </header>
+    <div class="input-group">
+      <label for="arv">ARV (After Repair Value)</label>
+      <input type="number" id="arv" placeholder="$ Enter ARV">
+    </div>
+    <div class="input-group">
+      <label for="purchase-price">Purchase Price</label>
+      <input type="number" id="purchase-price" placeholder="$ Enter Purchase Price">
+    </div>
+    <div class="input-group">
+      <label for="rehab-budget">Rehab Budget</label>
+      <input type="number" id="rehab-budget" placeholder="$ Enter Rehab Budget">
+    </div>
+    <div class="input-group">
+      <label for="holding-costs">Holding Costs</label>
+      <input type="number" id="holding-costs" placeholder="$ Enter Holding Costs">
+    </div>
+    <div class="input-group">
+      <label for="loan-interest-rate">Loan Interest Rate (%)</label>
+      <input type="number" id="loan-interest-rate" placeholder="Enter Loan Interest Rate">
+    </div>
+    <div class="input-group">
+      <label for="other-costs">Other Costs (e.g., commissions, closing costs)</label>
+      <input type="number" id="other-costs" placeholder="$ Enter Other Costs">
+    </div>
+
+    <button id="calculate">Calculate Profit</button>
+    <div id="result">
+      <h3>Total Project Costs: $0</h3>
+      <h3>Profit: $0</h3>
+      <h3>Cash-on-Cash Return: 0%</h3>
+    </div>
+  </div>
+
+  <footer>
+    
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
